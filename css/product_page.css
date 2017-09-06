@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  min-height: 100%
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.navWrap {
+  height: 50px;
+}
+nav {
+  height: 50px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #2A52BE;
+}
+
+.prodWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.bProdWrap {
+  display: flex;
+  height: 100%;
+}
+.mediaWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#logo {
+  flex: 1;
+  background-image: url(../img/mysql-logo.svg);
+  background-size: 575px 600px;
+  background-position: 0% 30%;
+  border: 1px solid black;
+}
+#video {
+  flex: 1;
+  margin: 0px;
+  border: 1px solid black;
+
+}
+.infoWrap {
+  flex: 2;
+  overflow: scroll;
+  height: 100%;
+  min-height: 100%;
+  border: 1px solid black;
+}
+.footerWrap {
+  display: flex;
+  height: 100px;
+}
+#footer {
+  flex: 1;
+  height: 100px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: white;
+}
+#footer ul {
+  list-style-type: none;
+}
